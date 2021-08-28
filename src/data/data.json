@@ -1,5 +1,6 @@
 {
-  "categories": [
+  "name": "Start",
+  "children": [
     {
       "id": 11,
       "level": 1,
