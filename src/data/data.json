@@ -4,16 +4,17 @@
     {
       "id": 11,
       "level": 1,
-      "name": "a1",
+      "name": "Wrangling",
       "children": [
         {
           "id": 21,
           "level": 2,
-          "name": "b1",
+          "name": "Transform  numerical features",
           "children": [
             {
               "id": 111,
-              "name": "good practice 1",
+              "name": "sequences_at_the_end_for_LSTM",
+              "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types) ",
               "pipeline": "pipeline",
               "dois": [
                 "1",
@@ -25,7 +26,8 @@
             },
             {
               "id": 112,
-              "name": "good practice 1",
+              "name": "sequences_at_the_end_for_LSTM",
+              "description": "when  transforming numerical data to ratios and some transformations become infinite ( e.g.,  zero or too small denominator), use smoothing (i.e., add a small constant in the dominator to avoid  dividing by zero)",
               "pipeline": "pipeline",
               "dois": [
                 "1",
@@ -40,11 +42,12 @@
         {
           "id": 22,
           "level": 2,
-          "name": "b2",
+          "name": "Transform non numerical data",
           "children": [
             {
               "id": 113,
-              "name": "good practice 1",
+              "name": "sequences_at_the_end_for_LSTM",
+              "description": "for analyzing hand written text images split the whole image into individual characters",
               "pipeline": "pipeline",
               "dois": [
                 "1",
@@ -56,7 +59,8 @@
             },
             {
               "id": 114,
-              "name": "good practice 1",
+              "name": "sequences_at_the_end_for_LSTM",
+              "description": "for analyzing hand written text images split the whole image into individual characters 2",
               "pipeline": "pipeline",
               "dois": [
                 "1",
@@ -68,7 +72,8 @@
             },
             {
               "id": 115,
-              "name": "good practice 1",
+              "name": "sequences_at_the_end_for_LSTM",
+              "description": "for analyzing hand written text images split the whole image into individual characters 3",
               "pipeline": "pipeline",
               "dois": [
                 "1",
@@ -85,38 +90,39 @@
     {
       "id": 12,
       "level": 1,
-      "name": "a2",
+      "name": "Feature_selection",
       "children": [
         {
           "id": 23,
           "level": 2,
-          "name": "b3"
+          "name": "Consider existing techniques and their assumptions"
         },
         {
           "id": 24,
           "level": 2,
-          "name": "b4"
+          "name": "General"
         }
       ]
     },
     {
       "id": 13,
       "level": 1,
-      "name": "a3",
+      "name": "EDA",
       "children": [
         {
           "id": 25,
           "level": 2,
-          "name": "b5"
+          "name": "Define types of features and  dependencies between them"
         },
         {
           "id": 26,
           "level": 2,
-          "name": "b6",
+          "name": "Detect trends, errors  and relations in data",
           "children": [
             {
               "id": 116,
-              "name": "good practice 1",
+              "name": "sequences_at_the_end_for_LSTM",
+              "description": "before preprocessing data identify possible errors (e.g., format of time data)",
               "pipeline": "pipeline",
               "dois": [
                 "1",
