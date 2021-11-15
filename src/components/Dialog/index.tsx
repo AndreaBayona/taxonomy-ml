@@ -1,13 +1,13 @@
 import * as React from "react";
 import { Modal } from "react-bootstrap";
-import {Container} from "./styles";
+import {Container, TitleWrapper} from "./styles";
 
 type Node = {
     id: number;
     name: string;
     description: string;
     pipeline: string;
-    dois: string[];
+    dois?: string[];
     origin: string;
     level: number;
 }
@@ -26,7 +26,9 @@ export const Dialog: React.FunctionComponent<Props> = ({show, setShow, node}) =>
                     {node &&
                         <>
                             <Modal.Header>
-                                <Modal.Title>{node.name}</Modal.Title>
+                                <Modal.Title>
+                                    <TitleWrapper>{node.name}</TitleWrapper>
+                                </Modal.Title>
                             </Modal.Header>
                             <Modal.Body>
                                 <Container>
@@ -35,7 +37,7 @@ export const Dialog: React.FunctionComponent<Props> = ({show, setShow, node}) =>
                                     <p>{node.description}</p>
                                     <h6>DOIS</h6>
                                     {
-                                        node.dois.map((doi, index) =>
+                                        node.dois && node.dois.map((doi, index) =>
                                             <li key={index}>{doi}</li>
                                         )
                                     }
@@ -49,3 +51,4 @@ export const Dialog: React.FunctionComponent<Props> = ({show, setShow, node}) =>
         </>
     )
 };
+

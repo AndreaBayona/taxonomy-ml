@@ -2,13 +2,14 @@ import * as d3 from "d3";
 import React from "react";
 import {useD3} from "../../hooks/useD3";
 import {Dialog} from "../Dialog";
+import data from "bootstrap/js/src/dom/data";
 
 
-const SVG_HEIGHT_IN_PX = 800;
+const SVG_HEIGHT_IN_PX = 1000;
 const SVG_WIDTH_IN_PX = 925;
 const MARGIN_IN_PX = {top: 20, right: 80, bottom: 10, left: 40};
 const MAX_DEPTH = 4;
-const X_NODE_SIZE = 70;
+const X_NODE_SIZE = 40;
 const MARGIN_IN_PX_ARRAY = [-MARGIN_IN_PX.left, -MARGIN_IN_PX.top, SVG_WIDTH_IN_PX, X_NODE_SIZE];
 const Y_NODE_SIZE = SVG_WIDTH_IN_PX / MAX_DEPTH;
 
@@ -44,14 +45,53 @@ const wrap = (text, width) => {
 }
 
 const getNodeColor = (node) => {
-    if (node.data.name === "Start") return "#103740";
+    if (node.data.name === "Start") return "#262626";
     else if (!node._children && node.data.level !== 3) return "gray";
-    else if (node.data.level === 1) return "#206E80";
-    else if (node.data.level === 2) return "#30A5BF";
-    else if (node.data.level === 3) return "#39C6E6";
-    else return "gray"
+    else {
+        const parent = node.parent;
+        const grandParent = parent.parent;
+        const colorName = grandParent !== null ? (grandParent.data.name === "Start" ? parent.data.name : grandParent.data.name) : (parent.data.name === "Start" ? node.data.name : parent.data.name);
+        console.log("colorName", colorName);
+        const hexColor = stringToColour(colorName);
+        if (node.data.level === 1) return increaseBrightness(hexColor, 20);
+        else if (node.data.level === 2) return increaseBrightness(hexColor, 40);
+        else if (node.data.level === 3) return increaseBrightness(hexColor, 60);
+        else return "gray"
+    }
 };
 
+const stringToColour = (str) => {
+    let i;
+    let hash = 0;
+    for (i = 0; i < str.length; i++) {
+        hash = str.charCodeAt(i) + ((hash << 4) - hash);
+    }
+    let colour = '#';
+    for (i = 0; i < 3; i++) {
+        const value = (hash >> (i * 4)) & 0xFF;
+        colour += ('00' + value.toString(26)).substr(-2);
+    }
+    return colour;
+};
+
+const increaseBrightness = (hex, percent) => {
+    // strip the leading # if it's there
+    hex = hex.replace(/^\s*#|\s*$/g, '');
+
+    // convert 3 char codes --> 6, e.g. `E0F` --> `EE00FF`
+    if(hex.length === 3){
+        hex = hex.replace(/(.)/g, '$1$1');
+    }
+
+    var r = parseInt(hex.substr(0, 2), 16),
+        g = parseInt(hex.substr(2, 2), 16),
+        b = parseInt(hex.substr(4, 2), 16);
+
+    return '#' +
+        ((0|(1<<8) + r + (256 - r) * percent / 100).toString(16)).substr(1) +
+        ((0|(1<<8) + g + (256 - g) * percent / 100).toString(16)).substr(1) +
+        ((0|(1<<8) + b + (256 - b) * percent / 100).toString(16)).substr(1);
+};
 
 export const TreeChart = ({data}) => {
     const [show, setShow] = React.useState(false);
