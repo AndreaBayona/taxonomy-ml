@@ -8,7 +8,7 @@
           "name": "Retraining model",
           "children": [
             {
-              "name": "data_to_avoid_overfitting",
+              "name": "data to avoid overfitting",
               "id": 300,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -22,7 +22,7 @@
           "name": "External services",
           "children": [
             {
-              "name": "randomly_randomly_to_balance_data",
+              "name": "randomly randomly to balance data",
               "id": 301,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -36,7 +36,7 @@
           "name": "Metric selection",
           "children": [
             {
-              "name": "randomly_randomly_to_balance_data2",
+              "name": "randomly randomly to balance data2",
               "id": 302,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -50,7 +50,7 @@
           "name": "Probabilistic model",
           "children": [
             {
-              "name": "only_on_training",
+              "name": "only on training",
               "id": 303,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -71,14 +71,14 @@
           "name": "Define types of features and  dependencies between them",
           "children": [
             {
-              "name": "training_imputation_on_validation_and_test_datasets",
+              "name": "training imputation on validation and test datasets",
               "id": 304,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "noisy_data",
+              "name": "noisy data",
               "id": 305,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -92,35 +92,35 @@
           "name": "Detect trends, errors  and relations in data",
           "children": [
             {
-              "name": "depedant_and_independant_variables",
+              "name": "depedant and independant variables",
               "id": 306,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "right_type_for_each_feature",
+              "name": "right type for each feature",
               "id": 307,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "order_of_a_feature_if_required_when_clustering_is_applied",
+              "name": "order of a feature if required when clustering is applied",
               "id": 308,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "Categorical_multiple_binary",
+              "name": "Categorical multiple binary",
               "id": 309,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "datetime_features_with_sine/cosine_facets",
+              "name": "datetime features with sine/cosine facets",
               "id": 310,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -141,7 +141,7 @@
           "name": "Improve performance",
           "children": [
             {
-              "name": "datetime_features_with_frequencies_or_general_features",
+              "name": "datetime features with frequencies or general features",
               "id": 311,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -155,14 +155,14 @@
           "name": "Prevent computation of  biased metrics and avoid overfitting",
           "children": [
             {
-              "name": "image_2_2d_array",
+              "name": "image 2 2d array",
               "id": 312,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "dataset_for_regression_when_data_is_dependable_on_categorical_data",
+              "name": "dataset for regression when data is dependable on categorical data",
               "id": 313,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -176,49 +176,49 @@
           "name": "Dataset construction",
           "children": [
             {
-              "name": "datetime_into_four_features",
+              "name": "datetime into four features",
               "id": 314,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "image_crop_object_of_interest_to_detect",
+              "name": "image crop object of interest to detect",
               "id": 315,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "image_2_characters",
+              "name": "image 2 characters",
               "id": 316,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "image_2_characters2",
+              "name": "image 2 characters2",
               "id": 317,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "data_based_on_algorithms",
+              "name": "data based on algorithms",
               "id": 318,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "data_relu",
+              "name": "data relu",
               "id": 319,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "based_on_algorithm_and_data",
+              "name": "based on algorithm and data",
               "id": 320,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -232,21 +232,21 @@
           "name": "Ensure minimum size and how to measure the size",
           "children": [
             {
-              "name": "when_model_sensitive_magnitude",
+              "name": "when model sensitive magnitude",
               "id": 321,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "when_using_SVM",
+              "name": "when using SVM",
               "id": 322,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "with_training_statistics",
+              "name": "with training statistics",
               "id": 323,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -281,7 +281,7 @@
           "name": "Parametrize",
           "children": [
             {
-              "name": "all_datasets_with_training_statistics",
+              "name": "all datasets with training statistics",
               "id": 325,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -302,84 +302,84 @@
           "name": "Consider existing techniques and their assumptions",
           "children": [
             {
-              "name": "directional_statistics_to_handle_geo_data",
+              "name": "directional statistics to handle geo data",
               "id": 326,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "average_word_embeding_when_using_set_invariant_to_permutation",
+              "name": "average word embeding when using set invariant to permutation",
               "id": 327,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "geodesic_distance_to_predict_geo_data",
+              "name": "geodesic distance to predict geo data",
               "id": 328,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "manifold_learning_methods_for_unsupervised_feature_engineering",
+              "name": "manifold learning methods for unsupervised feature engineering",
               "id": 329,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "dummy_data_when_having_categorical_data_in_regression",
+              "name": "dummy data when having categorical data in regression",
               "id": 330,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "cyclical_features_to_encode_date/time",
+              "name": "cyclical features to encode date/time",
               "id": 331,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "oversample_after_samplingdata",
+              "name": "oversample after samplingdata",
               "id": 332,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "imputation_techiques_when_missing_data",
+              "name": "imputation techiques when missing data",
               "id": 333,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "existing_routines_for_data_cleaning",
+              "name": "existing routines for data cleaning",
               "id": 334,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "using_hashing_and_salt",
+              "name": "using hashing and salt",
               "id": 335,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "invariant_algorithms_when_having_mixed_data",
+              "name": "invariant algorithms when having mixed data",
               "id": 336,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "data_based_on_algorithms",
+              "name": "data based on algorithms",
               "id": 337,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -400,7 +400,7 @@
               "pipeline": "pipeline"
             },
             {
-              "name": "all_numeric_features",
+              "name": "all numeric features",
               "id": 339,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -421,35 +421,35 @@
           "name": "Transform  numerical features",
           "children": [
             {
-              "name": "all_numeric_features2",
+              "name": "all numeric features2",
               "id": 340,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "geoloccation_data_to_deduce_information",
+              "name": "geoloccation data to deduce information",
               "id": 341,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "a_superset_vocabulary",
+              "name": "a superset vocabulary",
               "id": 342,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "features_only_on_train_data",
+              "name": "features only on train data",
               "id": 343,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "different_selection_techniques",
+              "name": "different selection techniques",
               "id": 344,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -463,14 +463,14 @@
           "name": "Transform non numerical data",
           "children": [
             {
-              "name": "dimensionality_reduction",
+              "name": "dimensionality reduction",
               "id": 345,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "pca_assumptions_hold",
+              "name": "pca assumptions hold",
               "id": 346,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -484,14 +484,14 @@
           "name": "Transform misellaneous data type",
           "children": [
             {
-              "name": "Backward_or_forward_selection_independently_any_classifier",
+              "name": "Backward or forward selection independently any classifier",
               "id": 347,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "dimensionality_reduction_technique",
+              "name": "dimensionality reduction technique",
               "id": 348,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -505,7 +505,7 @@
           "name": "Augment dataset",
           "children": [
             {
-              "name": "elastic_net_when_high_collinearity",
+              "name": "elastic net when high collinearity",
               "id": 349,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -519,28 +519,28 @@
           "name": "Encode non numerical data",
           "children": [
             {
-              "name": "lasso_regularization",
+              "name": "lasso regularization",
               "id": 350,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "mutual_information",
+              "name": "mutual information",
               "id": 351,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "regularization_in_algorithms",
+              "name": "regularization in algorithms",
               "id": 352,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "variable_important_index_given_by_random_forest",
+              "name": "variable important index given by random forest",
               "id": 353,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -554,14 +554,14 @@
           "name": "Encode misellaneous",
           "children": [
             {
-              "name": "latent_variables",
+              "name": "latent variables",
               "id": 354,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "lasso_ridge_or_glmnet_when_doing_multiple_regression",
+              "name": "lasso ridge or glmnet when doing multiple regression",
               "id": 355,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -575,7 +575,7 @@
           "name": "Encode numerical data",
           "children": [
             {
-              "name": "ROC_for_evaluating_hypotesis_for_specific_feature",
+              "name": "ROC for evaluating hypotesis for specific feature",
               "id": 356,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -589,7 +589,7 @@
           "name": "Impute missing data",
           "children": [
             {
-              "name": "p_value_greater_than_0.5_in_logistic_regression",
+              "name": "p value greater than 0.5 in logistic regression",
               "id": 357,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -603,21 +603,21 @@
           "name": "Balance data",
           "children": [
             {
-              "name": "multivariate_over_univariate",
+              "name": "multivariate over univariate",
               "id": 358,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "multivariate_over_univariate2",
+              "name": "multivariate over univariate2",
               "id": 359,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "multivariate_over_univariate3",
+              "name": "multivariate over univariate3",
               "id": 360,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -631,7 +631,7 @@
           "name": "Eliminate noisy data",
           "children": [
             {
-              "name": "data_errors",
+              "name": "data errors",
               "id": 361,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -645,7 +645,7 @@
           "name": "Prepare dataset",
           "children": [
             {
-              "name": "time_trends",
+              "name": "time trends",
               "id": 362,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -666,21 +666,21 @@
           "name": "Reproducibility/replicability",
           "children": [
             {
-              "name": "missing_values",
+              "name": "missing values",
               "id": 363,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "missing_values2",
+              "name": "missing values2",
               "id": 364,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "missing_values3",
+              "name": "missing values3",
               "id": 365,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -694,14 +694,14 @@
           "name": "Documentation/traceability",
           "children": [
             {
-              "name": "bayesian_optimization",
+              "name": "bayesian optimization",
               "id": 366,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "compare_training_test_performance",
+              "name": "compare training test performance",
               "id": 367,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -715,7 +715,7 @@
           "name": "Consistency/Integrity",
           "children": [
             {
-              "name": "cross_validation",
+              "name": "cross validation",
               "id": 368,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -729,35 +729,35 @@
           "name": "Resources usage",
           "children": [
             {
-              "name": "nested_cross_validation",
+              "name": "nested cross validation",
               "id": 369,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "model_selection_performed_separately_in_each_trial",
+              "name": "model selection performed separately in each trial",
               "id": 370,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "by_using_multiple_randomised_partitionings_of_the_available_data",
+              "name": "by using multiple randomised partitionings of the available data",
               "id": 371,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "use_hold_out_if_crossvalidation_is_for_verification",
+              "name": "use hold out if crossvalidation is for verification",
               "id": 372,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "introduce_unwanted_confounding_between_origins_and_seasonality",
+              "name": "introduce unwanted confounding between origins and seasonality",
               "id": 373,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -778,126 +778,126 @@
           "name": "Things to consider when evaluating a model",
           "children": [
             {
-              "name": "performance_over_a_wide_range_of_datasets",
+              "name": "performance over a wide range of datasets",
               "id": 374,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "algorithms_time_vs_accuracy",
+              "name": "algorithms time vs accuracy",
               "id": 375,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "model_in_test_set_after_cross-validation_for_hyperparameter_tuning",
+              "name": "model in test set after cross-validation for hyperparameter tuning",
               "id": 376,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "with_nested-crossvalidation_when_desirable_lower_random_uncertainty",
+              "name": "with nested-crossvalidation when desirable lower random uncertainty",
               "id": 377,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "dataset_samples_time_vs_accuracy",
+              "name": "dataset samples time vs accuracy",
               "id": 378,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "hyperparameter_in_valdation_set",
+              "name": "hyperparameter in valdation set",
               "id": 379,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "classifiers_independently_when_using_ensemble",
+              "name": "classifiers independently when using ensemble",
               "id": 380,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "learning_curves",
+              "name": "learning curves",
               "id": 381,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "metrics_based_on_goal",
+              "name": "metrics based on goal",
               "id": 382,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "model_based_on_test_set",
+              "name": "model based on test set",
               "id": 383,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "derivates_of_cost_function_when_objectives_functions_slow_or_do_not_converge",
+              "name": "derivates of cost function when objectives functions slow or do not converge",
               "id": 384,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "metrics_at_the_end_of_epoch",
+              "name": "metrics at the end of epoch",
               "id": 385,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "best_hyperparameters_on_test_set",
+              "name": "best hyperparameters on test set",
               "id": 386,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "vocabulary_from_training_set_when_using_crossvalidation",
+              "name": "vocabulary from training set when using crossvalidation",
               "id": 387,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "cost_function",
+              "name": "cost function",
               "id": 388,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "crossvalidation_instead_training_test_split",
+              "name": "crossvalidation instead training test split",
               "id": 389,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "crossvalidation_when_data_insuficient_to_split_in_training_validation_testing",
+              "name": "crossvalidation when data insuficient to split in training validation testing",
               "id": 390,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "nested-crossvalidation_instead_training_test_split",
+              "name": "nested-crossvalidation instead training test split",
               "id": 391,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -911,28 +911,28 @@
           "name": "Hyper parameter tuning",
           "children": [
             {
-              "name": "random_seed_to_assure_reproducibility_and_fair_comparison_when_training_deep_neural_network",
+              "name": "random seed to assure reproducibility and fair comparison when training deep neural network",
               "id": 392,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "repeated_cross_validation_with_different_seed_to_avoid_impact_of_fixed_seed",
+              "name": "repeated cross validation with different seed to avoid impact of fixed seed",
               "id": 393,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "several_runs_of_cross_validation_or_bootstrap",
+              "name": "several runs of cross validation or bootstrap",
               "id": 394,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "single_cross_validation_and_test_with_several_seed_to_avoid_seed_impact",
+              "name": "single cross validation and test with several seed to avoid seed impact",
               "id": 395,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -946,7 +946,7 @@
           "name": "Unit testing",
           "children": [
             {
-              "name": "use_adversarial_inputs_for_testing",
+              "name": "use adversarial inputs for testing",
               "id": 396,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -960,42 +960,42 @@
           "name": "Avoid overfitting",
           "children": [
             {
-              "name": "use_annotated_data_for_unit_testing",
+              "name": "use annotated data for unit testing",
               "id": 397,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "when_using_rolling_origin_on_large_dataset",
+              "name": "when using rolling origin on large dataset",
               "id": 398,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "membership_new_data_to_training_set",
+              "name": "membership new data to training set",
               "id": 399,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "probabilistic_model_optimization_from_probability_threshold_selection",
+              "name": "probabilistic model optimization from probability threshold selection",
               "id": 400,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "model_is_not_biased_when_building_superset_vocabulary",
+              "name": "model is not biased when building superset vocabulary",
               "id": 401,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "model_is_not_biased_when_building_superset_vocabulary2",
+              "name": "model is not biased when building superset vocabulary2",
               "id": 402,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -1016,14 +1016,14 @@
           "name": "Avoid overfitting",
           "children": [
             {
-              "name": "model_is_not_biased_when_building_superset_vocabulary3",
+              "name": "model is not biased when building superset vocabulary3",
               "id": 403,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "retrain_with_new_observation",
+              "name": "retrain with new observation",
               "id": 404,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -1044,14 +1044,14 @@
           "name": "Select learning rate",
           "children": [
             {
-              "name": "retrain_with_new_observation2",
+              "name": "retrain with new observation2",
               "id": 405,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "retrain_with_new_observation3",
+              "name": "retrain with new observation3",
               "id": 406,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -1065,28 +1065,28 @@
           "name": "Retraining models",
           "children": [
             {
-              "name": "multiple_humans",
+              "name": "multiple humans",
               "id": 407,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "tool_that_fixed_aspect_ratio_for_object_detection",
+              "name": "tool that fixed aspect ratio for object detection",
               "id": 408,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "tool_that_fixed_aspect_ratio_for_object_detection3",
+              "name": "tool that fixed aspect ratio for object detection3",
               "id": 409,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "efficiency_of_io",
+              "name": "efficiency of io",
               "id": 410,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -1100,7 +1100,7 @@
           "name": "Convergence",
           "children": [
             {
-              "name": "training_to_optimize_time",
+              "name": "training to optimize time",
               "id": 411,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -1114,21 +1114,21 @@
               "pipeline": "pipeline"
             },
             {
-              "name": "resource_aware_implementations",
+              "name": "resource aware implementations",
               "id": 413,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "separate_files",
+              "name": "separate files",
               "id": 414,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
               "pipeline": "pipeline"
             },
             {
-              "name": "pipelines_to_enable_reproducibility_data_preprocessing",
+              "name": "pipelines to enable reproducibility data preprocessing",
               "id": 415,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
@@ -1149,7 +1149,7 @@
               "pipeline": "pipeline"
             },
             {
-              "name": "data_deletion_in_pipeline",
+              "name": "data deletion in pipeline",
               "id": 417,
               "level": 3,
               "description": "transform data (normalize,standarize,scale) based on the algorithms (e.g., model assumptions, model characteristics, model sensitivity to magnitude)  that will use the data and  the data nature (e.g., data distributions, data types)",
